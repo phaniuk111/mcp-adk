@@ -1,10 +1,7 @@
 """
-MCP server exposing Google‑Cloud Recommender data.
+MCP server allowing Agents  to run gcloud commands.
 
-Run with:
-    python gcp_recommender_server.py          (stdio transport – Claude Desktop, Cursor, etc.)
-or:
-    python gcp_recommender_server.py --http   (HTTP transport for browsers / reverse proxies)
+
 """
 
 from __future__ import annotations
